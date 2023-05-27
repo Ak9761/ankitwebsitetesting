@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(background.jpg); */
+    background-size: cover;
+}
+/* Your CSS styles here */
+
+.text{
+    font-size: 40px;
+    color: #fd2155;
+    margin-top: 160px;
+    margin-left: 120px;
+    display: flex;
+    /* font-family: 'Bungee Shade', cursive; */
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Major Mono Display', monospace;
+    height: 60vh;
+    
+}
+.vertical-line::before {
+    content: "";
+    border-left: 1px solid black;
+    height: 290px;
+    position: absolute;
+    left: 0;
+    border-left: 4px solid red;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.description{
+    color: rgb(0, 0, 44);
+    font-size: 40px;
+    margin-left: 10%;
+    font-family: 'Notable', sans-serif;
+    display: inline;
+}
+#click{
+    display: none;
+}
+label{
+    margin-top: 15px;
+    margin-left: 10vw;
+    display: none;
+}
+.aboutme{
+    color: rgb(0, 0, 44);
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100vh;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.aboutme h2{
+    font-family: 'Staatliches', cursive;
+    color: #fd2155;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+@media (max-width:1080px){   
+    .text{
+        margin-top: 120px;
+        font-size: 40px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .description{
+        display: inline;
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+    .aboutme h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+    .aboutme{
+        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+}

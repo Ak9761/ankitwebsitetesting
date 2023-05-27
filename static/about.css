@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    background-size: cover;
+}
+/* Your CSS styles here */
+.aboutus{
+    color: rgb(0, 0, 44);
+    font-family: 'Staatliches', cursive;    
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 35px;
+    padding: 0 150px 100px 150px;
+}
+.aboutus h1{
+    color:#fd2155;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:1080px){
+    .aboutus{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .aboutus h1{
+        margin-bottom: 20px;
+    }
+}
