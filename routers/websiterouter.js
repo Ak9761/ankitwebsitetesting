@@ -1,7 +1,7 @@
 const express = require('express')
 const router = new express.Router()
 
-const collection = require('../src/connection.js')
+const collection = require('../connection.js')
 router.use(express.json())
 router.use(express.urlencoded({extended:false}))
 
