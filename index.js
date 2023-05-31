@@ -12,6 +12,6 @@ const port = process.env.port | 3000;
 const router = require('./routers/websiterouter.js');
 app.use(router);
 
-app.listen(port, hostname, () => {
+app.listen(port, () => {
   console.log('Server running at port', port);
 });
